@@ -26,14 +26,14 @@ def do_one_column():
     move_to_base()
     turn_left()
 
-# put three beeper using loop but move only once
+# put three beepers using a loop but move only once
 def put_three_beepers():
     for i in range(2):
         put_beeper()
         move()
     put_beeper()
 
-# after putting beeper, comeback to base
+# after putting beeper, come back to the base
 def move_to_base():
     turn_left()
     turn_left()
