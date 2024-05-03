@@ -58,7 +58,7 @@ def turn_right():
 
 def move_to_last_beeper():
     while beepers_present():
-                    move()
+        move()
 
 
 def fix_fence_post():
