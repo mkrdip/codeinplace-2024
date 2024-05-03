@@ -1,11 +1,13 @@
 from karel.stanfordkarel import *
 
+
 """
   Get Karel to create a checkerboard pattern of beepers inside an empty rectangular world.
   Your code should work in any world size, e.g 3x1, 3x5, 6x6, 8x7.
   Note: Karel should end up where she starts.
   Link to the Challenge: https://codeinplace.stanford.edu/cip4/ide/a/checkerboard
 """
+
 
 def main():
     fill_odd_row()  # Fill the first row starting with a beeper at the first position
