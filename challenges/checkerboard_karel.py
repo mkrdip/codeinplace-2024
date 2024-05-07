@@ -3,7 +3,7 @@ from karel.stanfordkarel import *
 
 """
   Get Karel to create a checkerboard pattern of beepers inside an empty rectangular world.
-  Your code should work in any world size, e.g 3x1, 3x5, 6x6, 8x7.
+  Your code should work in any world size, e.g. 3x1, 3x5, 6x6, 8x7.
   Note: Karel should end up where she starts.
   Link to the Challenge: https://codeinplace.stanford.edu/cip4/ide/a/checkerboard
 """
@@ -62,7 +62,7 @@ def move_up():
 
 def turn_right():
     """ Turns Karel right using three left turns. """
-    for _ in range(3):
+    for i in range(3):
         turn_left()  # Perform three left turns to turn right
 
 
