@@ -1,7 +1,13 @@
 # Week 4 - Python Control Flow Notes
 
 ## Play the Game!
-https://codeinplace.stanford.edu/cip4/share/dSz1kgKuNdcHCV5ZjvEQ
+
+This week we developed a game using Python called `High-Low`, play it here:
+https://codeinplace.stanford.edu/cip4/share/dSz1kgKuNdcHCV5ZjvEQ. 
+
+## Review Control Flow
+
+In week 1, we introduced Control Flow which is important to solve this week's problem, please review Week 1's note here [`week1/week1-notes.md`](week1/week1-notes.md). 
 
 ## Python Module
 - We imported the `random` module in our program to generate random numbers. It is a built-in module of Python.
