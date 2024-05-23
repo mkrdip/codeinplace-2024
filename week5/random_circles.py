@@ -1,5 +1,5 @@
 import random
-# local import importing Canvas class from graphics.py file
+# local import: importing Canvas class from graphics.py file
 from graphics import Canvas
 
 
@@ -16,13 +16,6 @@ def main():
 
 def draw_random_circle(canvas):
     # TODO your code here
-
-
-def draw_random_circle(canvas):
-    x = random.randint(0, CANVAS_WIDTH-CIRCLE_SIZE)
-    y = random.randint(0, CANVAS_HEIGHT-CIRCLE_SIZE)
-    color = random_color()
-    canvas.create_oval(x, y, x + CIRCLE_SIZE, y + CIRCLE_SIZE, color)
 
 
 def random_color():
