@@ -1,5 +1,4 @@
 # Pseudocode for the Program
-
 # 1. Import necessary modules: Canvas from graphics, and random
 # 2. Define constants for canvas width, height, maximum circle size, and maximum number of circles
 # 3. Define the main function:
@@ -24,15 +23,17 @@ import random
 # Local import
 from graphics import Canvas
 
+
 # Constants for canvas dimensions and circle properties
 CANVAS_WIDTH = 300
 CANVAS_HEIGHT = 300
 CIRCLE_SIZE = 20
 N_CIRCLES = 20
 
+
 def main():
     """
-    Main function to set up the canvas and draw random circles.
+    The main function is to set up the canvas and draw random circles.
     """
     # Create the canvas
     canvas = Canvas(CANVAS_WIDTH, CANVAS_HEIGHT)
@@ -41,6 +42,7 @@ def main():
     rand_circles = random.randint(1, N_CIRCLES)
     for i in range(rand_circles):
         draw_random_circle(canvas)
+
 
 def draw_random_circle(canvas):
     """
@@ -64,6 +66,7 @@ def draw_random_circle(canvas):
     # Draw the circle (oval) on the canvas
     canvas.create_oval(x1, y1, x2, y2, color=color)
 
+
 def random_color():
     """
     Returns a random color from a predefined list of colors.
@@ -73,6 +76,7 @@ def random_color():
     """
     colors = ['blue', 'purple', 'salmon', 'lightblue', 'cyan', 'forestgreen']
     return random.choice(colors)
+
 
 if __name__ == '__main__':
     main()
