@@ -1,6 +1,5 @@
 import random
 
-
 # Name of the file to read in!
 FILE_NAME = 'cswords.txt'
 
@@ -23,8 +22,20 @@ def get_words_from_file():
 
 
 def main():
-    # your code here :) 
-    
+    # m1: print all items on the list
+    lines_list = get_words_from_file()
+    # Find the data type of a variable
+    # print(type(lines_list))
+    # m2: show a randomly chosen word
+    # print(random.choice(lines_list))
+    # m3: continue when the user hits enter with another random word
+    while True:
+        random_word = random.choice(lines_list)
+        print(random_word)
+        # take enter as a blank input from the user
+        input("Press enter to continue")
+        
 
 if __name__ == '__main__':
     main()
+    
